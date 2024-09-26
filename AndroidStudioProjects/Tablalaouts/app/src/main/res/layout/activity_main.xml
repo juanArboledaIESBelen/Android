@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#ADABAB"
+    android:stretchColumns="0,2">
+    <!-- Expande las columnas 1 y 2, si quiero todas ponemos * -->
+    <!-- la primera columna es la 0 -->
+
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00ff00"
+            android:layout_margin="2dp"/>
+            <!-- El color del boton se cambia con el backgroundTint, el
+            attbackground lo que hace es cambiar el color del area de la vista del boton,
+            machaca el color del botón y siempre saldra el color que viene por defecto en el
+            boton-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00ff00"
+            android:layout_margin="2dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00ff00"
+            android:layout_margin="2dp"/>
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00ff00"
+            android:layout_margin="2dp"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00ff00"
+            android:layout_margin="2dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00ff00"
+            android:layout_margin="2dp"/>
+
+    </TableRow>
+
+
+</TableLayout>
